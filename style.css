@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+}
+
+nav ul {
+    background-color: #eee;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    padding: 0 10px;
+}
+
+.main {
+    font-size: 2rem;
+}
+
+.logo {
+    float: right;
+    text-align: center;
+    display: none;
+}
+
+.sites {
+    font-size: 1.5rem;
+
+}
+
+.sites a {
+    display: block;
+    margin-top: 10px;
+}
+
+@media (min-width: 1100px) {
+    .logo {
+        display: block;
+    }
+}
+
+@media (min-width: 1150px) {
+    .content {
+        padding: 0 50px;
+    }
+
+    .logo {
+        display: block;
+    }
+}
